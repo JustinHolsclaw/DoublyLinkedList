@@ -66,4 +66,17 @@ public class node {
         }
 
     }
+
+    public void addNewNode(int index, int dataAdded) {
+        if(index == 1){
+           node inserted = new node();
+           inserted.setData(dataAdded);
+           inserted.nextnode = nextnode;
+           nextnode = inserted;
+        }
+        else{
+            index--;
+            nextnode.addNewNode(index, dataAdded);
+        }
+    }
 }

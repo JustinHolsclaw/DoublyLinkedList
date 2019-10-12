@@ -43,4 +43,16 @@ public class TestLinkedList {
         Head.changeData(1, 15);
         assertEquals(15, Head.getData(1));
     }
+
+    @Test
+    public void canAddNodeInMidList(){
+        node Head = new node();
+        Head.append(new node());
+        Head.append(new node());
+        Head.changeData(2, 15);
+        Head.append(new node());
+        Head.append(new node());
+        Head.addNewNode(2, 0);
+        assertEquals(0, Head.getData(2));
+    }
 }
