@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4898c4d-cfdd-4033-a36b-9ccae21da08e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresPractice/TestLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresPractice/TestLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DataStructuresPractice/node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DataStructuresPractice/node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/node.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1RO2iCF5LXNKGTSd8hO4OzBoSRX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -42,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestLinkedList">
+  <component name="RunManager" selected="JUnit.TestLinkedList.set2ndValue">
     <configuration name="TestLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DataStructuresPractice" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,8 +67,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestLinkedList.set2ndValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DataStructuresPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestLinkedList" />
+      <option name="METHOD_NAME" value="set2ndValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestLinkedList.set2ndValue" />
         <item itemvalue="JUnit.TestLinkedList" />
         <item itemvalue="JUnit.TestLinkedList.canSetNode" />
       </list>

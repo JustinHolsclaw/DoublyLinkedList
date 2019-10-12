@@ -17,18 +17,53 @@ public class node {
         data = userinput;
     }
 
-    public int append(node incomingNode) {
-        if(prevNode == null){
-            prevNode = incomingNode;
+
+    // this adds a new node onto the end of the linked list.
+    public void append(node incomingNode) {
+        if(nextnode == null){
+            nextnode = incomingNode;
         }
         else{
-            prevNode.append(incomingNode);
+            nextnode.append(incomingNode);
         }
-        return 0;
     }
 
-    public int length() {
 
-        return 2;
+    //This returns the length of the linked list.
+    public int length() {
+        int len = 0;
+        if(nextnode == null){
+           return 1;
+        }
+        else{
+            return 1+ nextnode.length();
+        }
+    }
+
+    public boolean changeData(int index, int incomVal) {
+        int posChange;
+        if(index == 0){
+            data = incomVal;
+            return true;
+        }
+        else if(nextnode == null){
+            return false;
+        }
+        else{
+            index--;
+            nextnode.changeData(index, incomVal);
+            return true;
+        }
+    }
+
+    public int getData(int index) {
+        if(index == 0){
+            return data;
+        }
+        else{
+            index--;
+           return nextnode.getData(index);
+        }
+
     }
 }
